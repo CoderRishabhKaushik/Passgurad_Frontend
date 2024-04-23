@@ -1,8 +1,47 @@
-# React + Vite
+# Passguard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Passguard is a simple password manager application that securely stores passwords in your browser's localStorage.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can access the live demo [here](https://passgurad-frontend.vercel.app/).
+
+## Features
+
+- Securely store passwords locally in the browser's localStorage.
+- Add, edit, and delete passwords.
+- Passwords are encrypted before being stored.
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+1. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Usage
+
+1. Start the development server:
+
+    ```bash
+     npm run dev
+    ```
+
+2. Open your browser and visit `http://localhost:3000`.
+
+### Deployment
+
+To deploy Passguard, you can use any hosting platform that supports static websites. One option is Vercel, where the current demo is hosted.
+
+### Acknowledgments
+
+- This project was created using React.js.
+- Encryption is achieved using standard cryptographic functions.
