@@ -4,7 +4,7 @@ Passguard is a simple password manager application that securely stores password
 
 ## Demo
 
-You can access the live demo [here](https://passgurad-frontend.vercel.app/).
+You can access the live demo : [here](https://passgurad-frontend.vercel.app/).
 
 ## Features
 
